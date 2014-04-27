@@ -1,7 +1,7 @@
-## The following two functions that are used to create a special object that stores a matrix and cache's its inverse
+## The following two functions are used to create a special object to store a matrix and cache's its inverse
 
 
-## makeCacheMatrix() will create a special matrix object that will cache the inverse matrix
+## The makeCacheMatrix() will create a special matrix object that will cache the inverse matrix
 
 makeCacheMatrix <- function(matrix = matrix()) {
 	#invMatrix - inverse matrix value
@@ -28,7 +28,7 @@ makeCacheMatrix <- function(matrix = matrix()) {
 
 
 
-## cacheSolve() will conpute the inverse of the special matrix returned by makeCacheMatrix(). If the inverse has 
+## The cacheSolve() will conpute the inverse of the special matrix returned by makeCacheMatrix(). If the inverse has 
 ## been calculated and the matrix has not changed, then cacheSolve() will return the inverse from cache.
 
 cacheSolve <- function(x, ...) {
