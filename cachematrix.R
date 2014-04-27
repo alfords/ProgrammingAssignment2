@@ -1,5 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The following two functions that are used to create a special object that stores a matrix and cache's its inverse
+
 
 ## makeCacheMatrix() will create a special matrix object that will cache the inverse matrix
 
